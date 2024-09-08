@@ -1,12 +1,15 @@
 device:
-  ip: "<YOUR_DEVICE_IP>"       # Replace with your local device IP
-  port: <YOUR_DEVICE_PORT>     # Replace with your local device port
+  ip: "<YOUR_DEVICE_IP>"       # Replace with your local Roku TV IP
+  port: "8060"        
   timeout: 5                   # Timeout for network requests (in seconds)
 
 app:
   retries: 3                   # Number of retry attempts for failed requests
   log_level: "INFO"            # Logging level (DEBUG, INFO, WARNING, ERROR)
 
-headers:
-  content_type: "application/json"
-  user_agent: "/1.0"
+content:
+  video_ids: [                 # Youtube Video IDs for videos you want to play
+    "<VIDEO ID>",
+    "<VIDEO ID>",
+    "..."
+  ]
