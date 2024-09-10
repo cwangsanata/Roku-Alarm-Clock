@@ -1,6 +1,6 @@
 # Roku Alarm Clock
 
-Welcome to the Roku® Alarm Clock. This project aims to create a simple third-party alarm clock application for Roku® devices.
+Welcome to the Roku® Alarm Clock. This open source program aims to create a simple third-party alarm clock application for Roku® devices.
 
 ## Features
 
