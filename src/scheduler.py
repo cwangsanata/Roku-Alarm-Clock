@@ -4,7 +4,6 @@ import util as util
 
 def schedule_tasks(func):
     config = util.load_yaml("config/settings.yaml")
-    time_zone = config['time']
     days = config['time']['days']
     
     day_mapping = {
@@ -27,5 +26,5 @@ def run_schedule():
     while True:
         print(schedule.get_jobs())
         schedule.run_pending()
-        time.sleep(15)
+        time.sleep(1)
         

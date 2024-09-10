@@ -1,6 +1,4 @@
 import requests
-import time
-import schedule
 import util as util
 import scheduler as scheduler
 
