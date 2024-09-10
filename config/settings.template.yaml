@@ -13,3 +13,27 @@ content:
     "<VIDEO ID>",
     "..."
   ]
+
+time:
+  timezone: "<TIME-ZONE>"
+  monday: [
+
+  ],
+  tuesday: [
+
+  ],
+  wednesday: [
+
+  ],
+  thursday: [
+
+  ],
+  friday: [
+
+  ],
+  saturday: [
+
+  ],
+  sunday: [
+
+  ]
