@@ -3,10 +3,6 @@ device:
   port: "8060"        
   timeout: 5                   # Timeout for network requests (in seconds)
 
-app:
-  retries: 3                   # Number of retry attempts for failed requests
-  log_level: "INFO"            # Logging level (DEBUG, INFO, WARNING, ERROR)
-
 content:
   video_ids: [                 # Youtube Video IDs for videos you want to play
     "<VIDEO ID>",
@@ -15,25 +11,27 @@ content:
   ]
 
 time:
-  timezone: "<TIME-ZONE>"
-  monday: [
+  days: [
+    monday: [
+      "<TIME>",
+      "..."
+    ],
+    tuesday: [
 
-  ],
-  tuesday: [
+    ],
+    wednesday: [
 
-  ],
-  wednesday: [
+    ],
+    thursday: [
 
-  ],
-  thursday: [
+    ],
+    friday: [
 
-  ],
-  friday: [
+    ],
+    saturday: [
 
-  ],
-  saturday: [
+    ],
+    sunday: [
 
-  ],
-  sunday: [
-
+    ]
   ]
