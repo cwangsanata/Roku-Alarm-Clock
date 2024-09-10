@@ -13,7 +13,7 @@ To get started with the Roku® Alarm Clock project, follow these steps:
 
 1. Determine the local IP address of your Roku® machine. (It is recommended you set a static IP for this device on your router).
 2. Clone the repository to your local machine and navigate to the local directory.
-3. Run `pip install -r /path/to/requirements.txt`.
+3. Run `pip install -r requirements.txt`.
 4. Create a `settings.yaml` file following the template show in `settings.template.yaml`.
 5. Enter `python3 app.py` into the console. 
 
