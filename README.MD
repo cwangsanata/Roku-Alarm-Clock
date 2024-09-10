@@ -22,7 +22,6 @@ To get started with the Roku® Alarm Clock project, follow these steps:
 Contributions to the Roku® Alarm Clock project are welcome! If you would like to contribute, please follow these guidelines:
 
 - Fork the repository and create a new branch for your feature or bug fix.
-- Make your changes and ensure that the code passes all tests.
 - Submit a pull request with a clear description of your changes.
 
 ## License
