@@ -32,7 +32,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Planned Features
 - CLI for easier setup
-- Dockerize 
 - Modulate volume
 - Multi-device alarm system
 
