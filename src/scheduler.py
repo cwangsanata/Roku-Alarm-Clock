@@ -23,8 +23,11 @@ def schedule_tasks(func):
                 day_mapping[day].at(time_str).do(func)
 
 def run_schedule():
+    last_print_time = time.time()  
     while True:
-        print(schedule.get_jobs())
         schedule.run_pending()
+        if time.time() - last_print_time >= 10:
+            print(schedule.get_jobs())
+            last_print_time = time.time()
         time.sleep(1)
         
