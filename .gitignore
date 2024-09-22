@@ -155,7 +155,7 @@ dmypy.json
 cython_debug/
 
 # Personal Settings
-config/settings.yaml
+settings.yaml
 
 # Logging
 logs/
