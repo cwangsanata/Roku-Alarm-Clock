@@ -3,3 +3,5 @@
 README.md
 Dockerfile
 LICENSE
+tests/
+__init__.py
