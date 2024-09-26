@@ -1,0 +1,8 @@
+content:
+  video_ids_multiple: [                              # Replace with Youtube video IDs to play
+    "string1",
+    "string2",
+    "string3"
+  ]
+  video_ids_single: ["string3"]
+  video_ids_empty: []

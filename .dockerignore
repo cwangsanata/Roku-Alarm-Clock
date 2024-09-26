@@ -1,5 +1,13 @@
+# Git
 .git
 .gitignore
+
+# Text
 README.md
 Dockerfile
 LICENSE
+
+# Test Suite
+tests/
+__init__.py
+__main__.py
