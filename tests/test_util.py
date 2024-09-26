@@ -1,5 +1,6 @@
 import unittest
-from src.util import select_random, load_yaml
+import pytz
+from src.util import *
 
 class TestUtils(unittest.TestCase):
     '''
@@ -34,6 +35,20 @@ class TestUtils(unittest.TestCase):
         videos = self.data['content']['video_ids_empty']
         self.assertIsInstance(videos, list)
         self.assertEqual(len(videos), 0)
+
+    def test_load_yaml_invalid(self):
+        with self.assertRaises(FileNotFoundError):
+            load_yaml('tests/test_data_invalid.yaml')
+
+    '''
+    Test time_zone detection
+    '''
+    def test_get_time_zone(self):
+        time_zone = self.data['time']['time_zone']
+        try:
+            assert time_zone in set(pytz.all_timezones), "Invalid time zone"
+        except AssertionError:
+            self.fail("Invalid time zone")    
 
 if __name__ == '__main__':
     unittest.main()

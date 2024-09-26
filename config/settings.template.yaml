@@ -9,6 +9,7 @@ content:
   ]
 
 time:
+  time_zone: "<Your time zone (i.e. America/Los_Angeles)>" # Replace with your time zone
   days: [
     monday: [
       "<Time>"                              # Replace with time to play video (i.e. "09:00")
