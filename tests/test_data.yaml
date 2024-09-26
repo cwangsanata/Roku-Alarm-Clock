@@ -6,3 +6,29 @@ content:
   ]
   video_ids_single: ["string3"]
   video_ids_empty: []
+
+time:
+  time_zone: "America/Los_Angeles"
+  days: [
+    monday: [
+      "09:00"
+    ],
+    tuesday: [
+      "09:00"
+    ],
+    wednesday: [
+      "09:00"
+    ],
+    thursday: [
+      "09:00"
+    ],
+    friday: [
+      "09:00"
+    ],
+    saturday: [
+      "09:00"
+    ],
+    sunday: [
+      "09:00"
+    ]
+  ]
