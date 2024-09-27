@@ -1,6 +1,6 @@
 device:
   ip: "<Your device IP (i.e. 192.168.0.1)>" # Replace with your local Roku TV IP
-  port: "8060"                              # Optional: Port for network requests (default: 8060)        
+  port: "8060"                              # Port for network requests (default: 8060)        
   timeout: 5                                # Timeout for network requests (in seconds)
 
 content:
@@ -9,10 +9,10 @@ content:
   ]
 
 time:
-  time_zone: "<Your time zone (i.e. America/Los_Angeles)>" # Replace with your time zone
+  time_zone: "<Your time zone (i.e. America/Los_Angeles)>" # Replace with your time zone (https://gist.github.com/heyalexej/8bf688fd67d7199be4a1682b3eec7568)
   days: [
     monday: [
-      "<Time>"                              # Replace with time to play video (i.e. "09:00")
+      "<Time>"                              # Replace with time to play video in military time (i.e. "09:00")
     ],
     tuesday: [
       "<Time>" 
