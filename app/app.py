@@ -11,7 +11,10 @@ app = create_app()
 # db = SQLAlchemy(app)
 # migrate = Migrate(app, db)
 
-### INDEX ROUTE ###
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('index.html'), 404
+
 @app.route('/')
 def index():
     return render_template('index.html')
