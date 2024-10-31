@@ -2,7 +2,7 @@ import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from .routes import device_bp, video_bp, alarm_bp
+from .routes import device_bp, video_bp, alarm_bp, index_bp
 
 db = SQLAlchemy()
 migrate = Migrate()
@@ -17,5 +17,6 @@ def create_app():
     app.register_blueprint(device_bp)
     app.register_blueprint(video_bp)
     app.register_blueprint(alarm_bp)
+    app.register_blueprint(index_bp)
 
     return app
